@@ -1,9 +1,9 @@
 # Algo2-Buchwald
 Repo Algo2 Curso Buchwald FIUBA
 
-Lenguaje del Curso - C
+# Lenguaje del Curso - C
 
-Temas
+# Temas
 - Makefile
 - Valgrind (Manejo de memoria en C)
 - TAD
