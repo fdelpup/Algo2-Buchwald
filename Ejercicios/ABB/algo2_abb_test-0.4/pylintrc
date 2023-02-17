@@ -1,0 +1,12 @@
+[REPORTS]
+reports=no
+
+[MESSAGES CONTROL]
+disable=locally-disabled,fixme
+
+[VARIABLES]
+dummy-variables-rgx=^_$|^unused_
+
+[FORMAT]
+indent-string='  '
+max-line-length=80

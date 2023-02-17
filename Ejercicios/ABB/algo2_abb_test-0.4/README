@@ -1,0 +1,37 @@
+Pruebas básicas ABB
+===================
+
+Estos archivos componen unas pruebas básicas para el ABB.
+
+Características:
+
+  - verifican inserciones, borrados y reemplazos para todas las
+    formas de árbol de 7 nodos.
+
+  - cuando ocurre un error, se imprime exactamente la secuencia de
+    inserción y borrado que condujo al error.
+
+    (Nota: como es un árbol de búsqueda, el orden de inserción
+    representa un único ABB sin ambigüedad posible.)
+
+Si no hay errores, se emite simplemente "OK" sin informar de cada
+secuencia probada.
+
+Si el código C aborta (p. ej. con segmentation fault), las pruebas
+"sobreviven" e imprimen la secuencia igual. Esto se consigue
+implementando las pruebas _fuera_ del programa que llama a las
+primitivas del ABB.
+
+Para ejecutar las pruebas, basta con añadir los archivos ‘abb.h’ y
+‘abb.c’ y ejecutar `make`. Si el ABB emplea estructuras
+adicionales, se pueden indicar en el archivo ‘deps.mk’.
+
+Las pruebas corren bajo Valgrind una primera vez. Si el programa
+no aborta y los resultados son correctos, se corren una segunda
+con una verificación más exhaustiva de pérdidas de memoria.
+
+Enlaces
+=======
+
+Git: https://github.com/algoritmos-rw/abb_test
+Zip: https://github.com/algoritmos-rw/abb_test/releases/latest
