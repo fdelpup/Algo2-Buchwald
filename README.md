@@ -1,5 +1,5 @@
 # Algo2-Buchwald
-Repo Algo2 Curso Buchwald FIUBA
+Repo Algo2 Curso Buchwald FIUBA 1er Cuatrimestre 2022
 
 # Lenguaje del Curso - C
 
